@@ -1,10 +1,11 @@
 import React from 'react'
-import Navbar from './Components/Navbar/Navbar'
+import {Routes , Router} from 'react-router-dom'
 import './App.css'
+import Homepage from './Pages/Homepage/Homepage'
 function App() {
   return (
     <div>
-      <Navbar/>
+      <Homepage/>
     </div>
   )
 }
