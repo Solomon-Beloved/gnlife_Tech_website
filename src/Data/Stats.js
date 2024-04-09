@@ -16,11 +16,11 @@ import React from 'react'
         title: "Blog",
     },
     {
-        to: "/about ",
+        to: "/about us",
         title: "About us",
     },
     {
-        to: "/contact ",
+        to: "/contact us",
         title: "Contact us",
     },
 

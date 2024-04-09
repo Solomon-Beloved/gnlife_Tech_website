@@ -1,15 +1,15 @@
 import logo from "../../assets/Logo.svg";
+import { navLink } from "../../Data/Stats";
+import { Link, NavLink } from "react-router-dom";
 import "./Navbar.css";
 import "../../index.css";
-import { navLink } from "../../Data/Stats";
-import { Link } from "react-router-dom";
-import "./Navbar.css";
 
 const Navbar = () => {
+
   let navigation = navLink.map((link, index) => {
     return (
       <li key={index}>
-        <Link to={link.to}>{link.title}</Link>
+        <NavLink to={link.to}>{link.title}</NavLink>
       </li>
     );
   });

@@ -1,0 +1,44 @@
+.first-section{
+    text-align: center;
+    background: var(--light-color);
+    margin:5rem 7rem 0;
+    padding: 5rem 3rem;
+}
+.first-section small p{
+    color: var(--secondary-color);
+    font-weight: 400;
+    font-size: 1rem;
+    letter-spacing: .3rem;
+}
+.manage-inventory{
+    line-height: 1.6;
+}
+.manage-inventory span{
+    font-family: "Offside", sans-serif;
+    color: var(--secondary-color);
+}
+.manage-inventory p{
+    font-size: 1.38rem;
+    font-weight: 400;
+    line-height: 2;
+}
+.manage-inventory-btn{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.manage-inventory-btn button:first-child{
+    background: var(--secondary-color);
+    border: none;
+    border-radius: 50px;
+    padding: .2rem 1.7rem;
+    color: var(--light-color);
+    font: inherit;
+}
+.manage-inventory-btn button:nth-child(2){
+    border: none;
+    background: var(--light-color);
+    color: var(--secondary-color);
+    font: inherit;
+}
