@@ -4,23 +4,23 @@ import React from 'react'
 
 
     {
-        id: "home",
+        to: "/",
         title: "Home",
     },
     {
-        id: "pricing",
+        to: "/pricing",
         title: "Pricing",
     },
     {
-        id: "blog",
+        to: "/blog",
         title: "Blog",
     },
     {
-        id: "about us",
+        to: "/about ",
         title: "About us",
     },
     {
-        id: "contact us",
+        to: "/contact ",
         title: "Contact us",
     },
 
@@ -28,15 +28,15 @@ import React from 'react'
 ]
 export const footLink = [
     {
-        id: "blog",
+       to : "blog",
         title: "Blog",
     },
     {
-        id: "about us",
+      to : "about us",
         title: "About us",
     },
     {
-        id: "contact us",
+       to : "contact us",
         title: "Contact us",
     },
 
