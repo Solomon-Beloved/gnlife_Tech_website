@@ -1,6 +1,8 @@
-import React from 'react'
-import Navigation from '../../Components/Navbar/Navbar'
+import React from "react";
+import Navigation from "../../../Components/Navbar/Navbar"
+import product from "../../../assets/products.svg";
 import "./Homepage.css";
+import Pricing from "../../Pricing/Pricing";
 
 const Homepage = () => {
   return (
@@ -9,7 +11,7 @@ const Homepage = () => {
 
       <main>
         <section className="first-section">
-          <small className="">
+          <small>
             <p>Your best bet in management</p>
           </small>
           <div className="manage-inventory">
@@ -23,14 +25,22 @@ const Homepage = () => {
             </p>
           </div>
 
-          <div className='manage-inventory-btn'>
+          <div className="manage-inventory-btn">
             <button>Get Free Trial</button>
             <button>Contact us</button>
           </div>
+          <div className="manage-image">
+            <img src={product} alt="manage-image" />
+          </div>
         </section>
       </main>
+      <section>
+        <div>
+          <Pricing />
+        </div>
+      </section>
     </>
   );
-}
+};
 
-export default Homepage
+export default Homepage;

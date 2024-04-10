@@ -1,34 +1,44 @@
-.first-section{
+.first-section {
     text-align: center;
     background: var(--light-color);
-    margin:5rem 7rem 0;
+    border-radius: 30px;
+    margin: 5rem 7rem 0;
     padding: 5rem 3rem;
+    height: 43.9rem;
 }
-.first-section small p{
+
+.first-section small p {
     color: var(--secondary-color);
     font-weight: 400;
     font-size: 1rem;
     letter-spacing: .3rem;
 }
-.manage-inventory{
+
+.manage-inventory {
     line-height: 1.6;
 }
-.manage-inventory span{
+
+.manage-inventory span {
     font-family: "Offside", sans-serif;
     color: var(--secondary-color);
 }
-.manage-inventory p{
+
+.manage-inventory p {
     font-size: 1.38rem;
     font-weight: 400;
-    line-height: 2;
+    line-height: 1.6;
 }
-.manage-inventory-btn{
+
+.manage-inventory-btn {
     display: inline-flex;
     justify-content: center;
     align-items: center;
     gap: 2rem;
+    padding-top: 1.5rem;
+    font: inherit;
 }
-.manage-inventory-btn button:first-child{
+
+.manage-inventory-btn button:first-child {
     background: var(--secondary-color);
     border: none;
     border-radius: 50px;
@@ -36,9 +46,14 @@
     color: var(--light-color);
     font: inherit;
 }
-.manage-inventory-btn button:nth-child(2){
+
+.manage-inventory-btn button:nth-child(2) {
     border: none;
     background: var(--light-color);
     color: var(--secondary-color);
     font: inherit;
+}
+
+.manage-image{
+    margin-top: 4.4rem;
 }
